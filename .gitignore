@@ -1,0 +1,22 @@
+# Exclude build directories
+build/
+out/
+
+# Exclude files and folders related to CMake configuration
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+Makefile
+
+# Exclude Visual Studio cache files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Exclude other unnecessary files
+*.log
+*.tmp
+*.opendb
+*.opensdf
